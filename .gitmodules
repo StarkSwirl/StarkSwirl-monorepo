@@ -1,0 +1,6 @@
+[submodule "StarkSwirl"]
+	path = StarkSwirl
+	url = https://github.com/StarkSwirl/StarkSwirl.git
+[submodule "StarkSwirl-UI"]
+	path = StarkSwirl-UI
+	url = https://github.com/StarkSwirl/StarkSwirl-UI.git
