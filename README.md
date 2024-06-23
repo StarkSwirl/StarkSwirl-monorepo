@@ -85,10 +85,10 @@ cd ../../
 
 ## Deposit flow
 
-![Deposit](Deposit.png)
+![Deposit](Deposit(1).png)
 
 ## Withdraw flow
-![Withdraw](Withdraw.png)
+![Withdraw](Withdraw(1).png)
 
 
 Deployed contract on sepolia network can be found [here](https://sepolia.starkscan.co/contract/0x0251a03effbd84af6def3138a41f338ffc1dc196c07ccdeb3405b3c55e21c85a#overview)
