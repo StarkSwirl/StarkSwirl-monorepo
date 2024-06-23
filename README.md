@@ -62,20 +62,20 @@ cd ../
 ```
 
 
-#### Check on local with Herodotous verifier
+#### Check on local with Herodotus verifier
 
 Running the verifier locally
 
 ```bash
-cd tools/herodotous && ./runner --program cairo_verifier.sierra.json -c cairo1 < ../../proof.json
+cd tools/herodotus && ./runner --program cairo_verifier.sierra.json -c cairo1 < ../../proof.json
 
 cd ../../
 ```
 
 
-#### Check on-chain with Herodotous Starknet Proof Verification
+#### Check on-chain with Herodotus Starknet Proof Verification
 ```bash
-cd tools/herodotous && ./snfoundry_proof_serializer -c cairo1 <  ../../fibonacci_proof.json > ../../calldata
+cd tools/herodotus && ./snfoundry_proof_serializer -c cairo1 <  ../../fibonacci_proof.json > ../../calldata
 
 ./1-verify-proof.sh 0x274d8165a19590bdeaa94d1dd427e2034462d7611754ab3e15714a908c60df7 ../../calldata
 
@@ -95,7 +95,7 @@ Deployed contract on sepolia network can be found [here](https://sepolia.starksc
 
 
 ## Parteners 
-### Herodotous
+### Herodotus
  - Integrity verifier - we use the verifier to check on-chain that the proof from the stone-prover is valid. The proof will attest that the user know the pre-image of a hash and that hash is part of the merkle tree with the root stored in the contract on-chain
  - Cairo-lib:MMR - Merkle Mountain Range is an extension to the merkle tree data structure that are very efficient when append data.
 
